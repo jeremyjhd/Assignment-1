@@ -18,6 +18,7 @@
 				<div class="inner">
 					<nav>
 						<ul>
+							<li><a href="#myDetails">My Details</a></li>
 							<li><a href="#personalInfo">Peronal Information</a></li>
 							<li><a href="#interest">Interest in IT</a></li>
 							<li><a href="#idealJob">Ideal Job</a></li>
@@ -31,8 +32,8 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Personal Information -->
-					<section class="wrapper style1 fullscreen fade-up">
+				<!-- My details - name, photo, student# etc -->
+					<section id="myDetails" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 						<div class="split style1">
 							<section>
@@ -48,7 +49,7 @@
 									</li>
 									<li>
 										<h3>Email</h3>
-										<a href="mailto:s3668805@rmit.edu.au" target="_blank">s3668805@rmit.edu.au</a>
+										<a href="mailto:s3668805@student.rmit.edu.au" target="_blank">s3668805@student.rmit.edu.au</a>
 									</li>
 									<li>
 										<h3>Web</h3>
@@ -60,6 +61,7 @@
 					</div>
 				</section>
 
+<!-- Personal Info - section 1 of the assignment -->
 				<section id="personalInfo" class="wrapper style1 fullscreen fade-up">
 					<div class="inner">
 						<h2>Personal Information</h2>
@@ -70,6 +72,7 @@
 						</div>
 				</section>
 
+<!-- My Interest in IT - section 2 of the assignment -->
 				<section id="interest" class="wrapper style1 fullscreen fade-up">
 					<div class="inner">
 						<h2>Interest in IT</h2>
@@ -80,6 +83,7 @@
 					</div>
 				</section>
 
+<!-- Ideal Job - section 3 of the assignment -->
 				<section id="idealJob" class="wrapper style1 fullscreen fade-up">
 					<div class="inner">
 						<h2>Ideal Job</h2>
@@ -107,6 +111,7 @@
 					</div>
 				</section>
 
+<!-- Personal Profile - section 4 of the assignment -->
 				<section id="personalProfile" class="wrapper style1 fullscreen fade-up">
 					<div class="inner">
 						<h2>Myers-Briggs Profile</h2>
@@ -157,16 +162,68 @@
 					</div>
 				</section>
 
-					<!-- Project Idea -->
+					<!-- Project Idea - sdection 5 of assignment -->
 						<section id="projectIdea" class="wrapper style1 fullscreen fade-up">
-							<div class="inner">
-								<h1>Hyperspace</h1>
-								<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-								and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
-								<ul class="actions">
-									<li><a href="#four" class="button scrolly">Learn more</a></li>
-								</ul>
-							</div>
+								<div class="inner">
+									<h2>Project Idea</h2>
+									<h3>Overview</h3>
+									<p>Information Technology seems to find a way into every aspect of our lives. Our sport and hobbies are no exception. I have developed an idea for a project that aims to use Information Technology to improve the safety and enjoyment of SCUBA divers, free divers, and snorkelers (collectively referred to as divers).</p>
+									<p>The concept of the project is a mobile-based application titled Diving Zen that assesses diving conditions and informs divers’ decision making when selecting where and when they dive. Assessing diving conditions can be a complex process, with multiple variables to consider, and it is particularly challenging for inexperienced divers. Misjudging conditions could mean an unpleasant experience at best, or worse it could place divers in significant danger. Information Technology can assist in this process to ultimately improve the enjoyment and safety of divers.</p>
+									<h3>Motivation</h3>
+									<p>As an avid SCUBA diver, I have experienced first-hand the frustrations of diving in poor conditions that I could have avoided by properly assessing conditions before leaving the house. A calm and clear day according to the local weather report may not be the case in the water. Ideal diving conditions can quickly deteriorate, catching out unaware divers during a dive.</p>
+									<p>Assessing diving conditions requires an understanding and consideration of a range of factors. Divers must interpret different weather forecasts, looking at wind, tides, swell strength and direction, and consider how these factors affect their specific dive site. At the basic to intermediate levels of training most recreational divers receive, assessing these conditions is rarely covered and poorly understood. Instead, divers rely on the experience of others and often their own misadventures to guide them.</p>
+									<p>Information Technology offers a solution to this problem. The Diving Zen mobile application concept can assist the diver by gathering a range of weather and marine forecasts (collectively referred to as forecasts), assessing these across a range of dive sites, and predicting diving conditions at those sites. For the inexperienced diver, interpreting this information would help them make better decisions, get more enjoyment from the sport, and be safer in doing so. For experienced divers it offers a quick reference tool that compiles information they would otherwise have to seek out across multiple sources, simplifying their diving experience.</p>
+									<h3>Description</h3>
+									<p>The mobile application, Diving Zen offers the following key functions:</p>
+									<ul>
+										<li>Compiles forecasts that are relevant to diving conditions for multiple dive sites</li>
+										<li>Interprets these forecasts to predict diving conditions at individual dive sites</li>
+										<li>Recommends dive sites based on predicted diving conditions, and importantly the ideal time to dive</li>
+										<li>Describes the impact that forecast conditions have upon diving conditions at specific dive sites</li>
+									</ul>
+									<h4>User Inputs</h4>
+									<p>The application is controlled by the user entering a range of optional inputs that define what dive sites will be searched and assessed.</p>
+									<ul>
+										<li>Date/Time range. User nominates one or multiple date/time ranges they would like to dive</li>
+										<li>Dive duration. User nominates intended duration of dive in a range from 30 minutes to 3 hours. This element is important as conditions may be such that you commence a dive in good conditions, but they worsen to the point of being unsafe during the dive, such as in regions with significant tidal effect</li>
+										<li>Day/Night dive. User nominates if they are looking to dive during daytime, night-time, or both. The application will determine local dawn and dusk times to apply to search windows</li>
+										<li>Preferred dive sites. Limits search to specific dive sites the user nominates</li>
+										<li>Search area. Opens search to any dive sites within a specified distance from user</li>
+									</ul>
+									<h4>Application Outputs</h4>
+									<ul>
+										<li>Dive sites. Lists all dive sites the user has selected, or within the nominated distance. Sites are sorted in order of best predicted diving conditions. User may alternatively sort list by distance</li>
+										<li>Recommended dives. Lists the date/time assessed to have the best diving conditions at each site</li>
+										<li>Diving conditions timeline. Provides a colour-coded timeline indicating the predicted diving conditions (in accordance with the diving conditions prediction assessment described below) at each site over the date/time range selected by the user</li>
+										<li>Forecasts. Displays a consolidated weather and marine conditions forecast at each site in the search area, during the date/time range selected. An explanation of how these conditions affect diving conditions is provided for the user to refer to, intended to educate and develop their understanding of this process</li>
+									</ul>
+									<h4>Diving Conditions Prediction</h4>
+									<p>The most important and innovative aspect of the application is its interpretation of forecasts to predict diving conditions. The application assesses conditions into five categories (Excellent, Good, Average, Poor, Dangerous) making it easy for the novice-diver to consider conditions. This assessment is based on several factors:</p>
+									<ul>
+										<li>Tidal windows. Best diving conditions occur during hightide. Incoming or outgoing tide can create dangerous conditions which divers need to plan for</li>
+										<li>Recent rainfall. Recent rain results in poor visibility in the water and unfavourable conditions</li>
+										<li>Wind strength and direction. While calm wind is favourable, the wind direction can be as important as its intensity in assessing diving conditions. A moderate onshore wind can create chop and unpleasant diving, while a strong offshore wind may be benign to a protected diving site</li>
+										<li>Ocean swell. Swell strength and direction affects sites differently, and may cause unpleasant or dangerous conditions</li>
+									</ul>
+									<h4>Geospatial Information</h4>
+									<p>In order to assess conditions at specific sites, the application requires access to geospatial information. Google Maps Platform provides multiple Application Programming Interfaces (APIs) that enable the integration of their maps and geospatial information into an application.</p>
+									<p>Dive site locations are to be input by individual users through a familiar pin-drop mapping function. By sourcing this information from users, it enables the application to be scaled as its use increases, without having to supply an initial database. Using this data, the application will assess effects of forecasts against the specific geography of each dive site, such as wind direction relative to shore direction and impacts of ocean swell.</p>
+									<h4>Forecast Data</h4>
+									<p>Central to the application’s function is access to reliable weather and marine forecast information. The Bureau of Meteorology makes available real-time forecast, warning and observation products and analysis charts. These products are available freely for authorised purposes, and as client data services that can be used for commercial products.</p>
+									<h4>Machine Learning Enhancements</h4>
+									<p>Machine learning could enhance the application’s diving conditions prediction function. While the application applies general principles of weather effects and interprets geographic influences, certain dive sites will be more or less sensitive to these effects. By integrating a user feedback system, user reports of diving conditions can be compared with forecasts to inform improvements to the diving conditions prediction algorithm. For example, a site that is more sensitive to swell will adjust the influence that swell conditions have on predicted diving conditions.</p>
+									<h3>Tools and Technologies</h3>
+									<p>The Diving Zen application is ideally suited to a mobile platform, as users are likely to be accessing it away from home, retrieving updates at or enroute to their dive site. In my research I assess that this would best be developed with cross-platform (hybrid application) development tools, rather than building for individual mobile platforms. (Chebbi, 2019)</p>
+									<p>Using a common programming language that can support both the iOS and Android platforms would be an efficient strategy for an individual or small group to approach this project. C# (C Sharp) is an object-oriented programming language that can be used to develop on both platforms. The Xamarin framework allows developers to access native iOS and Android capabilities with C#. (Chebbi, 2019)</p>
+									<p>Using machine learning tools to perform predictive analysis to compare user feedback with predicted diving conditions would require additional tools and technology. Open-source tools are available across different programming languages that could enable this. Core ML is one open-source tool that can integrate machine learning into applications. (Core ML, 2021)</p>
+									<p>Due to the application’s requirement for databases updated with dive site information received from users, and the potential integration of machine learning enhancements that utilise a user feedback system, Diving Zen would also require back-end cloud-based services to support these elements. Services like the BuildFire JS framework would offer access to these functions and tools through an open-source environment, avoiding the need to build it from scratch. (Buildfire, 2021)</p>
+									<h3>Skills Required</h4>
+									<p>The primary technical skills required to develop this project are general programming skills, and the specific languages used for this project. Options such as the MIT App Inventor enable the development of applications without programming knowledge, however I do not believe these tools provide the capabilities needed to build the machine learning aspects or back-end services required for the complete project.</p>
+									<p>Developing these skills from scratch would require significant effort but there are myriad options available for self-education or online courses that provide flexible education options. The proliferation of learning platforms such as Udacity and Code Academy compliment traditional education options, and make it possible for novice or experienced developers to seek out these skills.</p>
+									<h3>Outcome</h3>
+									<p>This project has the potential to make a real improvement to the sport of diving. This is particularly true for beginner divers that lack the experience and skills to judge diving conditions. For divers starting out in the sport, this inexperience will often mean they have negative experiences, possibly being put off the sport altogether. In extreme cases, they may be putting themselves into real danger.</p>
+									<p>By providing a stable and accurate way to predict dive conditions, divers will have more enjoyable and safer experiences, avoiding some of the pitfalls of inexperience. Implementing machine learning enhancements would enable the application to continually evolve, further improving divers’ experiences and safety in their sport.</p>
+								</div>
 						</section>
 
 			</div>
